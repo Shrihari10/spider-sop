@@ -1,0 +1,12 @@
+git clone
+git checkout -b
+cd
+touch log.txt
+echo "" >> filename.txt
+git merge
+git status
+git add .
+git commit
+git mv
+git push
+
