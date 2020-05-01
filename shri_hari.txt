@@ -1,1 +1,9 @@
+git checkout -b shri_hari
+
 touch log.txt
+
+git add log.txt
+
+git commit -m "log added"
+
+
