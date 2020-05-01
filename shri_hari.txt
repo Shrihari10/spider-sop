@@ -6,4 +6,43 @@ git add log.txt
 
 git commit -m "log added"
 
+git checkout -b answer
+
+touch answer.txt
+
+git add answer.txt
+
+git commit -m "answer added"
+
+git checkout shri_hari
+
+git checkout -b reason
+
+touch answer.txt
+
+git add answer.txt
+
+git commit -m "reason added"
+
+git checkout answer
+
+git merge reason
+
+manually resolved conflict
+
+git add answer.txt
+
+git commit -m "manual resolve"
+
+git checkout master
+
+git checkout shri_hari
+
+renamed log.txt to shri_hari.txt
+
+git add shri_hari.txt
+
+git commit -m "rename done"
+
+updating all commands in log
 
